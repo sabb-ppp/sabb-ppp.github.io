@@ -1,45 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
+    background: #444;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
 }
 
-.portfolio-item {
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
+header nav a:hover {
+    color: #bbb;
 }
 
-.portfolio-item h2 {
-    margin-top: 0;
+section {
+    background: #e0e0e0;
+    margin: 2rem auto;
+    max-width: 700px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #444;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 1rem 0;
+    background: #444;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 0.95rem;
 }
